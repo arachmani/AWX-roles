@@ -1,0 +1,5 @@
+---
+- name: Deploy oVirt hosted engine
+  hosts: 4415.asrachmani.com
+  roles:
+    - role: hosted_engine_setup
